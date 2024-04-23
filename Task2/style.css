@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: antiquewhite;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #chocolates, #customPack {
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .chocolate {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  #packItems {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #packItems li {
+    margin-bottom: 5px;
+  }
+  
+  #totalPrice {
+    font-weight: bold;
+  }
+  
